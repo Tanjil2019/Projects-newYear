@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Montserrat:wght@300&family=Mukta&family=Prompt:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+*{
+padding: 0 ;
+margin: 0;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+/* header Styles Start */
+header{
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+.text-section{
+    max-width: 500px;
+    text-align: right;
+    margin-left: 900px;
+    padding-top: 200px;
+}
+.text-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px;
+}
+.lorem-header{
+    font-size: 16px;
+    padding: 10px;
+}
+.btn-header{
+    background-color: tomato;
+    padding:10px 25px;
+    font-size: 19px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* header Styles End */
+
+/* my-failure styles start */
+.section1{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.my-failure{
+    height: 650px;
+    display: flex;
+}
+.img-section{
+    border-radius: 50%;
+}
+.my-failure img{
+    width: 400px;
+    height: auto;
+}
+.text-section2{
+    text-align: left;
+    margin-left:200px;
+    padding: 4px;
+}
+.text-failure{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.p-failure{
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.my-failure h5{
+    font-size: 15px;
+}
+.my-failure i{
+   color: rgb(22, 204, 204);
+   padding: 4px;
+   font-size: 17px;
+}
+
+/* my-failure styles End */
+
+
+/* Plans styles start */
+
+.my-plans{
+   max-width: 1100px;
+   margin: 0 auto;
+   height: 300px;
+}
+.plans-text{
+text-align: center;
+font-size: 2.2rem;
+font-weight: bold;
+}
+
+.icons{ 
+   display: flex;
+   margin: 50px;
+}
+.web-development, .javascript, .smoking, .ecommerce{
+    background-color: rgb(252, 251, 249);
+    
+    text-align: center;
+    margin:0 60px;
+}
+.web-development img{
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+.web-development h4{
+    
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+.web-development p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+/* Gradiant start  */
+.gradiant{
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(to left, transparent, rgb(202, 43, 25)),
+    url("images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 270px;
+}
+.gradiant h2{
+    max-width: 400px;
+   font-size: 2.1rem;
+   padding-top: 70px;
+   color: white;
+   padding: 60px;
+
+}
+
+.gradiant .btn-call{
+   font-size: 17px;
+   margin-top: -80px;
+   margin-left: 70px;
+   padding: 10px 20px;
+   background-color: white;
+   border: none;
+   color: rgb(202, 43, 25);
+   font-weight: bold;
+   margin-bottom: 100px;
+}
+/* Gradiant End  */
+/* future styles start */
+footer{
+    margin-top: 100px;
+    background-color: rgb(8, 8, 8);
+    
+}
+.future{
+    display: flex;
+   
+}
+.text-future{
+    padding: 200px;
+}
+
+.text-future h1{
+    color: white;
+    font-size: 2.1rem;
+    padding: 10px;
+}
+.text-future p{
+  color: white;
+  font-size: 17px;
+  padding: 10px;
+}
+.text-future h3{
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+  }
+  
+  .text-future img{
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+  }
+  
+
+
+
+
+
+.subscribe{
+    padding: 200px;
+}
+.subscribe h4{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.subscribe input{
+    font-size: 19px;
+    padding:10px 20px;
+    border: none;
+}
+.subscribe button{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 19px;
+    color: red;
+    font-weight: bold;
+}
